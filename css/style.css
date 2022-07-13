@@ -12,25 +12,26 @@ body{
 /*HEADER*/
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: orange;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    padding: 20px;
 }
 
 .text{
     color: white;
-    padding-top: 30px;
-    padding-bottom: 20px;
 }
 
-.logo{
-    background-size: cover;
+.logo img{
+    height: 30px;
 }
 
 
 .icon{
+    margin-right: 10px;
     color: white;
-    padding-top: 30px;
-    padding-bottom: 20px;
 }
 
 /*MAIN*/
@@ -42,9 +43,18 @@ main{
 }
 
 .card{
-    width: 100% / 6;
-    background-size: cover;
-    height: auto;
+    width: calc(100% / 3);
+    position: relative;
+}
+
+.phot{
+    max-width: 100%;
+}
+
+.spa{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
 }
 
 
@@ -52,7 +62,7 @@ main{
 
 footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: black;
 }
 
@@ -61,6 +71,7 @@ footer{
     font-size: 12px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-left: 30px;
 }
 
 .text-foot :first-child{
@@ -72,6 +83,7 @@ footer{
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 12px;
+  margin-right: 30px;
 }
 
 .icon-foot p{
