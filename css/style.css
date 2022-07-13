@@ -43,10 +43,19 @@ main{
 }
 
 .card{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
+    margin-top: 60px;
+    margin-right: 20px;
+    margin-bottom: 60px;
 }
 
 .phot{
+    max-width: 100%;
+    display: block;
+}
+
+.phot2{
+    display: none;
     max-width: 100%;
 }
 
@@ -59,12 +68,28 @@ main{
     bottom: 40px;
 }
 
+.img-spa:hover .phot{
+    display: none;
+}
+
+.img-spa:hover .phot2{
+    display: block;
+}
+
 #red{
     background-color: red;
 }
 
 #green{
     background-color: green;
+}
+
+#heart{
+    color: red;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    font-size: 30px;
 }
 
 
