@@ -3,3 +3,68 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: sans-serif;
+}
+
+/*HEADER*/
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+/*MAIN*/
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+
+
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-foot{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+
+.icon-foot{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
