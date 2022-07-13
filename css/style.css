@@ -6,30 +6,31 @@
 
 body{
     font-family: sans-serif;
+    margin: 0 auto;
 }
 
 /*HEADER*/
 header{
     display: flex;
     justify-content: space-around;
+    background-color: orange;
 }
 
 .text{
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .logo{
-    width: 100px;
-    height: 100px;
-    background-color: red;
+    background-image: url(/img/boolean-logo.png);
+    background-size: cover;
 }
 
 .icon{
-    width: 100px;
-    height: 100px;
-    background-color: green;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 /*MAIN*/
@@ -55,16 +56,27 @@ main{
 footer{
     display: flex;
     justify-content: space-around;
+    background-color: black;
 }
 
 .text-foot{
-    width: 100px;
-    height: 100px;
-    background-color: purple;
+    color: white;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text-foot :first-child{
+    margin-bottom: 10px;
 }
 
 .icon-foot{
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+
+.icon-foot p{
+    margin-bottom: 10px;
 }
