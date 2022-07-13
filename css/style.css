@@ -44,17 +44,27 @@ main{
 
 .card{
     width: calc(100% / 3);
-    position: relative;
 }
 
 .phot{
     max-width: 100%;
 }
 
+.img-spa{
+    position: relative;
+}
+
 .spa{
     position: absolute;
-    bottom: 20px;
-    left: 10px;
+    bottom: 40px;
+}
+
+#red{
+    background-color: red;
+}
+
+#green{
+    background-color: green;
 }
 
 
