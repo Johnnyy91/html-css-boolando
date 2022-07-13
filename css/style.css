@@ -87,9 +87,19 @@ main{
 #heart{
     color: red;
     position: absolute;
-    right: 10px;
     top: 20px;
+    right: 0;
     font-size: 30px;
+    border: 2px solid white;
+    background-color: white;
+}
+
+#no-line{
+    color: red;
+}
+
+#line{
+    text-decoration: line-through;
 }
 
 
