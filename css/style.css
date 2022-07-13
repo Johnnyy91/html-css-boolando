@@ -23,9 +23,9 @@ header{
 }
 
 .logo{
-    background-image: url(/img/boolean-logo.png);
     background-size: cover;
 }
+
 
 .icon{
     color: white;
@@ -42,13 +42,10 @@ main{
 }
 
 .card{
-    width: 400px;
-    height: 400px;
-    background-color: red;
-    border: 2px solid black;
+    width: 100% / 6;
+    background-size: cover;
+    height: auto;
 }
-
-
 
 
 /*FOOTER*/
